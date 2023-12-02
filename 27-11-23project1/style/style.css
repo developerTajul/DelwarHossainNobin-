@@ -16,7 +16,9 @@ ul{
     margin: 0;
     list-style: none;
 }
-
+.overflow{
+    overflow: hidden;
+}
 
 /* navbar-part */
 nav{
@@ -49,10 +51,12 @@ nav{
     content: "";
     position: absolute;
     left: 0;
+    transition:.36s;
     
 }
 .icone a:hover{
     color: #4272d7;
+    
 }
 
 .itam{
@@ -112,7 +116,6 @@ nav{
     font-size: 15px;
     font-weight: 300;
     
-    
 }
 .itam ul li ul.dropdown li:hover{
     background-color: #4272d7;
@@ -123,5 +126,89 @@ nav{
 .itam ul li ul.dropdown li a:hover{
     left: 10px;
     position: relative;
+
 }
+
 /* navbar-part end*/
+
+.slider-active{
+    width: 100%;
+}
+
+.slider {
+    text-align: center;
+    width: 100%;
+    background-size: cover;
+    padding: 200px 0;
+    text-transform: uppercase;
+    
+    
+    
+}
+
+.slider h4{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    
+}
+.slider h2{
+    font-size: 72px;
+    color: #ffffff;
+    font-weight: 800;
+    padding-bottom: 30px;
+    
+}
+.slider a{
+    padding: 15px 40px;
+    color: #ffffff;
+    text-decoration: none;
+    background: #4272d7;
+    font-size: 15px;
+    transition:.36s;
+}
+.slider a:hover{
+    background: #22282e;
+}
+.owl-carousel .owl-nav button {
+    position: absolute;
+    top: 43%;
+    left: 50px;
+    overflow: hidden;
+}
+.owl-carousel .owl-nav button span{
+
+    background: #363738;
+    
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    height: 40px;
+    width: 40px;
+    opacity: .80;
+    color: #ffffff;
+    
+    
+}
+.owl-carousel .owl-nav button span:hover{
+    background: black;
+    
+}
+
+.owl-carousel .owl-nav button.owl-next{
+    right: 50px;
+    left: auto;
+    
+    
+} 
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #4272d7;
+    
+}
+.owl-theme .owl-dots {
+    position: relative;
+    margin-top:-20px;
+    bottom: 40px;
+    
+}
