@@ -19,19 +19,31 @@ ul{
 .overflow{
     overflow: hidden;
 }
+.col-4{width: 33.10%;}
 
+a{
+    text-decoration: none;
+}
+.container {
+    width: 1150px;
+    margin: auto;
+}
+.container2 {
+    width: 1180px;
+    margin: auto;
+}
 /* navbar-part */
 nav{
     width: 100%;
     min-height: 120px;
     background-color: #ffffff;
     border-top: 5px solid #4272d7;
+    position: sticky;
+    top: 0;
+    z-index: 100;
     
 }
-.container {
-    width: 1150px;
-    margin: auto;
-}
+
 .menu-part .logo{
     float: left;
     padding: 38px 0;
@@ -202,13 +214,133 @@ nav{
     
     
 } 
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-    background: #4272d7;
-    
-}
 .owl-theme .owl-dots {
     position: relative;
     margin-top:-20px;
-    bottom: 40px;
+    bottom: 45px;
+    transition: .3s;
     
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #4272d7;
+    width: 10px;
+    height: 10px;
+    
+}
+
+/* hire-part */
+.hire-part{
+    
+    background: #4272d7;
+    padding:28px 0 ;
+    overflow: hidden;
+    position: relative;
+    top: -13px;
+}
+
+.hire-part p{
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.hire-part span{
+    font-size: 30px;
+    
+
+}
+
+.hire-part a{
+float: right;
+border: 2px solid #ffffff;
+padding: 15px 40px;
+color: #ffffff;
+font-weight: 500;
+transition: .3s;
+}
+
+.hire-part a:hover{
+    background: #666;
+}
+
+/* iconbox-container */
+.iconbox-section{
+    padding:  70px 0;
+}
+
+.iconbox-container{
+    padding:0 15px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+
+.iconbox-container .iconbox-image img{
+    width: 370px;
+    height: 280px;
+    background-size: cover;
+    
+}
+.iconbox-container .iconbox-contain{
+    overflow: hidden;
+    padding: 0 20px 31px 30px;
+    background-color: rgba(66,114,215,.9);
+    position: absolute;
+    bottom: 0px;
+    width: 370px;
+    height: 70px;
+    transition: .5s;
+
+}
+.iconbox-container .iconbox-contain h1{
+    font-size: 18px;
+    font-weight: 800px;
+    color: #ffffff;
+    padding: 20px 0;
+    line-height: 30px;
+}
+
+.iconbox-container .iconbox-contain h1 span{
+    padding-right: 10px;
+    font-size: 30px ;
+}
+
+.iconbox-container .iconbox-contain p{
+    color: #e5e5e5;
+    font-size: 15px;
+    visibility: hidden;
+    opacity: 0;
+    margin-bottom:15px ;
+    line-height: 25px;
+}
+.iconbox-container .iconbox-contain a{
+    visibility: hidden;
+    opacity: 0;
+    color: #fff;
+    font-size:13px ;
+    
+}
+.iconbox-container .iconbox-contain a span{
+    padding-right: 5px;
+}
+
+.iconbox-container .iconbox-contain:hover{
+    cursor: pointer;
+}
+.iconbox-contain:hover {
+    height: 283px;
+    bottom: 0;
+}
+
+.iconbox-container .iconbox-contain:hover p{
+    visibility: visible;
+    opacity: 1;
+}
+
+.iconbox-container .iconbox-contain:hover a{
+    visibility: visible;
+    opacity: 1;
 }

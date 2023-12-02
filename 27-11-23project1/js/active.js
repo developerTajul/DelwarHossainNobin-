@@ -26,3 +26,8 @@ $('.owlCarousel').owlCarousel({
     stagePadding:30,
     smartSpeed:450
 });
+
+
+
+ 
+
