@@ -1,5 +1,16 @@
 $(document).ready(function(){
-    var owl = $('.banner-slied');
+
+    // meanmenu
+    jQuery('#mobile-manu').meanmenu({
+        meanScreenWidth: "767",
+        meanMenuContainer: '.mean-togol',
+        meanRevealPosition: "<span></span> <span></span> <span></span>"
+
+    });
+
+// owlCarousel
+
+var owl = $('.banner-slied');
 owl.owlCarousel({
     loop:true,
     nav:true,
@@ -9,10 +20,13 @@ owl.owlCarousel({
         0:{
             items:1
         },
-        600:{
+        576:{
             items:1
         },            
-        960:{
+        768:{
+            items:1
+        },
+        992:{
             items:1
         },
         1200:{
@@ -30,11 +44,14 @@ owl.owlCarousel({
         0:{
             items:1
         },
-        600:{
+        576:{
             items:1
         },            
-        960:{
-            items:4
+        767:{
+            items:2
+        },
+        992:{
+            items:3
         },
         1200:{
             items:4
@@ -52,14 +69,41 @@ owl.owlCarousel({
         0:{
             items:1
         },
-        600:{
+        576:{
             items:1
         },            
-        960:{
+        768:{
+            items:1
+        },
+        992:{
             items:1
         },
         1200:{
             items:1
+        }
+    }
+});
+var owl = $('.ads');
+owl.owlCarousel({
+    loop:true,
+    nav:true,
+    autoplay:true,
+    dots:false,
+    responsive:{
+        0:{
+            items:2
+        },
+        576:{
+            items:3
+        },            
+        768:{
+            items:4
+        },
+        992:{
+            items:5
+        },
+        1200:{
+            items:6
         }
     }
 });

@@ -17,52 +17,60 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <!-- Magnific Popup core CSS file -->
-    <link rel="stylesheet" href="/css/magnific-popup.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <!-- mean menu -->
+    <link rel="stylesheet" href="css/meanmenu.css" media="all" />
 
     <!-- style -->
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
     <!-- header-area -->
     <header>
-        <nav>
+        <div class="nav-main">
             <div class="container">
-                <div class="menu-part">
-                    <div class="logo">
-                        <a href="index.html"><img src="/asset/logo/logo.png" alt="logo"></a>
-                    </div>
-                    <div class="header-right">
-                        <div class="icone">
-                            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <div class="mean-togol">
+                    <div class="menu-part">
+                        <div class="logo">
+                            <a href="index.html"><img src="/asset/logo/logo.png" alt="logo"></a>
                         </div>
-                        <div class="itam">
-                            <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Features </a>
-                                    <ul class="dropdown">
-                                        <li><a href="">Typograpy</a></li>
-                                        <li><a href="">Event</a></li>
-                                        <li><a href="">Anusment</a></li>
-                                        <li><a href="">News</a></li>
+                        <div class="header-right">
+                            <div class="icone">
+                                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                            <div class="itam">
+                                <nav id="mobile-manu">
+                                    <ul>
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">Features </a>
+                                            <ul class="dropdown">
+                                                <li><a href="">Typograpy</a></li>
+                                                <li><a href="">Event</a></li>
+                                                <li><a href="">Anusment</a></li>
+                                                <li><a href="">News</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Pages</a></li>
+                                        <li><a href="#">Portfolio</a>
+                                            <ul class="dropdown">
+                                                <li><a href="">page-1</a></li>
+                                                <li><a href="">page-2</a></li>
+                                                <li><a href="">page-3</a></li>
+                                                <li><a href="">page-4</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Contact Us</a></li>
                                     </ul>
-                                </li>
-                                <li><a href="#">Pages</a></li>
-                                <li><a href="#">Portfolio</a>
-                                    <ul class="dropdown">
-                                        <li><a href="">page-1</a></li>
-                                        <li><a href="">page-2</a></li>
-                                        <li><a href="">page-3</a></li>
-                                        <li><a href="">page-4</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                            </ul>
+                                </nav>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </nav>
+        </div>
         <!-- carousel -->
         <section class="Banner">
             <div class="banner-slied owl-carousel owl-theme overflow">
@@ -92,8 +100,18 @@
         <section>
             <div class="hire-part ">
                 <div class="container">
-                    <p>We’ve completed more than <span>100+</span>  project for our amazing clients, If you interested?</p>
-                <a href="#">Hire Us</a>
+                <div class="row">
+                    <div class="col-8">
+                        <div class="hair">
+                            <p>We’ve completed more than <span>100+</span>  project for our amazing clients, If you interested?</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="btn">
+                            <a href="#">Hire Us</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -105,42 +123,49 @@
         <!-- iconbox-container -->
 
         <section class="iconbox-section">
-            <div class=" container2 " style="display: flex;
-                justify-content: space-between;">
-                <div class="iconbox-container cols-4">
-                    <div class="iconbox-image">
-                        <img src="asset/iconbox/iconbox_01.jpg" alt="">
+            <div class=" container " >
+                <div class="row">
+                   <div class="col-4 res-col-4">
+                    <div class="iconbox-container ">
+                        <div class="iconbox-image">
+                            <img src="asset/iconbox/iconbox_01.jpg" alt="">
+                        </div>
+                        <div class="iconbox-contain">
+                            <h1><span><i class="fa-solid fa-chart-column"></i></span> Top Investment Advisors</h1>
+                            <p>Mauris scelerisque ut ipsum id vulputate. Nulla laoreet, ligula vel congue ultricies, nibh ipsum egestas nunc, id porta nibh nunc non felis. Vestibulum nibh urna, lobortis ut euismod sed, dignissim non neque</p>
+                            <a href="#"><span><i class="fa fa-plus-square"></i> </span>Read more</a>
+                        </div>
                     </div>
-                    <div class="iconbox-contain">
-                        <h1><span><i class="fa-solid fa-chart-column"></i></span> Top Investment Advisors</h1>
-                        <p>Mauris scelerisque ut ipsum id vulputate. Nulla laoreet, ligula vel congue ultricies, nibh ipsum egestas nunc, id porta nibh nunc non felis. Vestibulum nibh urna, lobortis ut euismod sed, dignissim non neque</p>
-                        <a href="#"><span><i class="fa fa-plus-square"></i> </span>Read more</a>
+                   </div>
+                <div class="col-4">
+                    <div class="iconbox-container ">
+                        <div class="iconbox-image">
+                            <img src="asset/iconbox/iconbox_02.jpg" alt="">
+                        </div>
+                        <div class="iconbox-contain">
+                            <h1><span><i class="fa fa-cogs"></i></span> Business Performance</h1>
+                            <p>Mauris scelerisque ut ipsum id vulputate. Nulla laoreet, ligula vel congue ultricies, nibh ipsum egestas nunc, id porta nibh nunc non felis. Vestibulum nibh urna, lobortis ut euismod sed, dignissim non neque</p>
+                            <a href="#"><span><i class="fa fa-plus-square"></i> </span>Read more</a>
+                        </div>
                     </div>
                 </div>
-                <div class="iconbox-container cols-4">
-                    <div class="iconbox-image">
-                        <img src="asset/iconbox/iconbox_02.jpg" alt="">
-                    </div>
-                    <div class="iconbox-contain">
-                        <h1><span><i class="fa fa-cogs"></i></span> Business Performance</h1>
-                        <p>Mauris scelerisque ut ipsum id vulputate. Nulla laoreet, ligula vel congue ultricies, nibh ipsum egestas nunc, id porta nibh nunc non felis. Vestibulum nibh urna, lobortis ut euismod sed, dignissim non neque</p>
-                        <a href="#"><span><i class="fa fa-plus-square"></i> </span>Read more</a>
+                <div class="col-4">
+                    <div class="iconbox-container ">
+                        <div class="iconbox-image">
+                            <img src="asset/iconbox/iconbox_03.jpg" alt="">
+                        </div>
+                        <div class="iconbox-contain">
+                            <h1><span><i class="fa fa-line-chart"></i></span>Growth Hacking and Success</h1>
+                            <p>Mauris scelerisque ut ipsum id vulputate. Nulla laoreet, ligula vel congue ultricies, nibh ipsum egestas nunc, id porta nibh nunc non felis. Vestibulum nibh urna, lobortis ut euismod sed, dignissim non neque</p>
+                            <a href="#"><span><i class="fa fa-plus-square"></i> </span>Read more</a>
+                        </div>
                     </div>
                 </div>
-                <div class="iconbox-container cols-4">
-                    <div class="iconbox-image">
-                        <img src="asset/iconbox/iconbox_03.jpg" alt="">
-                    </div>
-                    <div class="iconbox-contain">
-                        <h1><span><i class="fa fa-line-chart"></i></span>Growth Hacking and Success</h1>
-                        <p>Mauris scelerisque ut ipsum id vulputate. Nulla laoreet, ligula vel congue ultricies, nibh ipsum egestas nunc, id porta nibh nunc non felis. Vestibulum nibh urna, lobortis ut euismod sed, dignissim non neque</p>
-                        <a href="#"><span><i class="fa fa-plus-square"></i> </span>Read more</a>
-                    </div>
                 </div>
             </div>
         </section>
             <!-- services  -->
-        <section >
+        <section>
            <div class="full-section">
                 <div class="container">
                     <div class="row">
@@ -227,14 +252,10 @@
         <section>
             <div class="project-area">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="header-text">
-                                <h1 style="color: #ffffff;">LATEST PROJECTS</h1>
-                                <div class="border-button"></div>
-                            </div>
-                        </div>
-                    </div> 
+                    <div class="header-text">
+                        <h1 style="color: #ffffff;">LATEST PROJECTS</h1>
+                        <div class="border-button"></div>
+                    </div>
                     <div class=" project-today owl-carousel owl-theme">
                         <div class="project-warper">
                             <div class="project-img">
@@ -372,115 +393,119 @@
             <div class="rivew">
                 <div class="container">
                     <div class="row">
-                        <div class="col-6">
-                            <div class="blog-type">
-                                <h1>LATEST BLOG POSTS</h1>
-                                <div class="blog-border"></div>
+                        <div class="blog-col">
+                            <div class="col-6">
+                                <div class="blog-type">
+                                    <h1>LATEST BLOG POSTS</h1>
+                                    <div class="blog-border"></div>
+                                </div>
+                                <div class="blog-carosel owl-carousel owl-theme">
+                                    <div class="blog-part ">
+                                        <div class="blog-img">
+                                            <img src="/asset/blog-img/blog_01.jpg" alt="">
+                                            <span class="image-hadin">
+                                                March 25, 2018
+                                            </span>
+                                        </div>
+                                        <div class="blog-contain">
+                                            <h1>10 Tips for a Business Strong Start</h1>
+                                            <p>Donec sit amet neque lectus. Ut vitae turpis justo. Nullam a sodales est, at viverra sem. Mauris vitae pellentesque nisi, sit amet viverra orci.</p>
+                                            <div class="blog-sub">
+                                                <div class="bloog-footer">
+                                                    <span><i class="fa fa-tags"></i></span>
+                                                    <span>Development, Maketing</span>
+                                                </div>
+                                                <div class="red-more">
+                                                    <span><i class="fa fa-plus-square"></i></span>
+                                                    <span>Read more</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="blog-part ">
+                                        <div class="blog-img">
+                                            <img src="/asset/blog-img/blog_02.jpg" alt="">
+                                            <span class="image-hadin">
+                                                March 25, 2018
+                                            </span>
+                                        </div>
+                                        <div class="blog-contain">
+                                            <h1>10 Tips for a Business Strong Start</h1>
+                                            <p>Donec sit amet neque lectus. Ut vitae turpis justo. Nullam a sodales est, at viverra sem. Mauris vitae pellentesque nisi, sit amet viverra orci.</p>
+                                            <div class="blog-sub">
+                                                <div class="bloog-footer">
+                                                    <span><i class="fa fa-tags"></i></span>
+                                                    <span>Development, Maketing</span>
+                                                </div>
+                                                <div class="red-more">
+                                                    <span><i class="fa fa-plus-square"></i></span>
+                                                    <span>Read more</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="blog-part ">
+                                        <div class="blog-img">
+                                            <img src="/asset/blog-img/blog_03.jpg" alt="">
+                                            <span class="image-hadin">
+                                                March 25, 2018
+                                            </span>
+                                        </div>
+                                        <div class="blog-contain">
+                                            <h1>10 Tips for a Business Strong Start</h1>
+                                            <p>Donec sit amet neque lectus. Ut vitae turpis justo. Nullam a sodales est, at viverra sem. Mauris vitae pellentesque nisi, sit amet viverra orci.</p>
+                                            <div class="blog-sub">
+                                                <div class="bloog-footer">
+                                                    <span><i class="fa fa-tags"></i></span>
+                                                    <span>Development, Maketing</span>
+                                                </div>
+                                                <div class="red-more">
+                                                    <span><i class="fa fa-plus-square"></i></span>
+                                                    <span>Read more</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="blog-carosel owl-carousel owl-theme">
-                                <div class="blog-part ">
-                                    <div class="blog-img">
-                                        <img src="/asset/blog-img/blog_01.jpg" alt="">
-                                        <span class="image-hadin">
-                                            March 25, 2018
-                                        </span>
+                            <div class="tesimonial-part">
+                                <div class="col-6">
+                                    <div class="blog-type">
+                                        <h1>TESTIMONIALS</h1>
+                                        <div class="blog-border"></div>
                                     </div>
-                                    <div class="blog-contain">
-                                        <h1>10 Tips for a Business Strong Start</h1>
-                                        <p>Donec sit amet neque lectus. Ut vitae turpis justo. Nullam a sodales est, at viverra sem. Mauris vitae pellentesque nisi, sit amet viverra orci.</p>
-                                        <div class="blog-sub">
-                                            <div class="bloog-footer">
-                                                <span><i class="fa fa-tags"></i></span>
-                                                <span>Development, Maketing</span>
+                                    <div class="blog-carosel owl-carousel owl-theme">
+                                        <div class="contain-part ">
+                                            <div class="testimonials-contain-text">
+                                                <span>“</span>
+                                                <p> Nullam faucibus, magna non fringilla ullamcorper, mi libero tempus arcu, fermentum lacinia sapien lacus eget dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam tincidunt odio dolor</p>
                                             </div>
-                                            <div class="red-more">
-                                                <span><i class="fa fa-plus-square"></i></span>
-                                                <span>Read more</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="blog-part ">
-                                    <div class="blog-img">
-                                        <img src="/asset/blog-img/blog_02.jpg" alt="">
-                                        <span class="image-hadin">
-                                            March 25, 2018
-                                        </span>
-                                    </div>
-                                    <div class="blog-contain">
-                                        <h1>10 Tips for a Business Strong Start</h1>
-                                        <p>Donec sit amet neque lectus. Ut vitae turpis justo. Nullam a sodales est, at viverra sem. Mauris vitae pellentesque nisi, sit amet viverra orci.</p>
-                                        <div class="blog-sub">
-                                            <div class="bloog-footer">
-                                                <span><i class="fa fa-tags"></i></span>
-                                                <span>Development, Maketing</span>
-                                            </div>
-                                            <div class="red-more">
-                                                <span><i class="fa fa-plus-square"></i></span>
-                                                <span>Read more</span>
+                                            <hr style="border: 1px solid #e6e6e6; margin: 20px 0;">
+                                            <div class="testimonials-profle">
+                                                <div class="testimonials-img">
+                                                    <img src="asset/user/user_02.png" alt="">
+                                                </div>
+                                                <div class="testimonials-name">
+                                                    <h1>Michael Green</h1>
+                                                    <span>Product Manager</span>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="blog-part ">
-                                    <div class="blog-img">
-                                        <img src="/asset/blog-img/blog_03.jpg" alt="">
-                                        <span class="image-hadin">
-                                            March 25, 2018
-                                        </span>
-                                    </div>
-                                    <div class="blog-contain">
-                                        <h1>10 Tips for a Business Strong Start</h1>
-                                        <p>Donec sit amet neque lectus. Ut vitae turpis justo. Nullam a sodales est, at viverra sem. Mauris vitae pellentesque nisi, sit amet viverra orci.</p>
-                                        <div class="blog-sub">
-                                            <div class="bloog-footer">
-                                                <span><i class="fa fa-tags"></i></span>
-                                                <span>Development, Maketing</span>
+                                        <div class="contain-part ">
+                                            <div class="testimonials-contain-text">
+                                                <span>“</span>
+                                                <p> Nullam faucibus, magna non fringilla ullamcorper, mi libero tempus arcu, fermentum lacinia sapien lacus eget dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam tincidunt odio dolor</p>
                                             </div>
-                                            <div class="red-more">
-                                                <span><i class="fa fa-plus-square"></i></span>
-                                                <span>Read more</span>
+                                            <hr style="border: 1px solid #e6e6e6; margin: 20px 0;">
+                                            <div class="testimonials-profle">
+                                                <div class="testimonials-img">
+                                                    <img src="asset/user/user_01.png" alt="">
+                                                </div>
+                                                <div class="testimonials-name">
+                                                    <h1>John Doe</h1>
+                                                    <span>Product Manager</span>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="blog-type">
-                                <h1>TESTIMONIALS</h1>
-                                <div class="blog-border"></div>
-                            </div>
-                            <div class="blog-carosel owl-carousel owl-theme">
-                                <div class="contain-part ">
-                                    <div class="testimonials-contain-text">
-                                        <span>“</span>
-                                        <p> Nullam faucibus, magna non fringilla ullamcorper, mi libero tempus arcu, fermentum lacinia sapien lacus eget dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam tincidunt odio dolor</p>
-                                    </div>
-                                    <hr style="border: 1px solid #e6e6e6; margin: 20px 0;">
-                                    <div class="testimonials-profle">
-                                        <div class="testimonials-img">
-                                            <img src="asset/user/user_02.png" alt="">
-                                        </div>
-                                        <div class="testimonials-name">
-                                            <h1>Michael Green</h1>
-                                            <span>Product Manager</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="contain-part ">
-                                    <div class="testimonials-contain-text">
-                                        <span>“</span>
-                                        <p> Nullam faucibus, magna non fringilla ullamcorper, mi libero tempus arcu, fermentum lacinia sapien lacus eget dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam tincidunt odio dolor</p>
-                                    </div>
-                                    <hr style="border: 1px solid #e6e6e6; margin: 20px 0;">
-                                    <div class="testimonials-profle">
-                                        <div class="testimonials-img">
-                                            <img src="asset/user/user_01.png" alt="">
-                                        </div>
-                                        <div class="testimonials-name">
-                                            <h1>John Doe</h1>
-                                            <span>Product Manager</span>
                                         </div>
                                     </div>
                                 </div>
@@ -497,8 +522,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <div class="pather">
-                                <div class="patner-img">
+                            <div class="pather ads owl-carousel owl-theme ">
+                                <div class="patner-img ">
                                     <img src="/asset/resposar/partner_01.png" alt="">
                                 </div>
                                 <div class="patner-img">
@@ -596,6 +621,7 @@
                     </div>
                 </div>
             </div>
+            
         </section>
     </footer>
 
@@ -604,6 +630,7 @@
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.meanmenu.min.js"></script>
     <script src="js/active.js"></script>
     
 

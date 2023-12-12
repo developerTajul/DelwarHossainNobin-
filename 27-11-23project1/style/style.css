@@ -20,34 +20,32 @@ ul{
 .col-3{width:25%; padding: 15px; float: left;}
 .col-4{width: 33.33%; padding: 15px; float: left;}
 .col-6{width: 50%; padding: 15px; float: left;}
+.col-8{width: 66.66%; padding: 15px; float: left;}
+.col-7{width: 75%; padding: 15px; float: left;}
 .col-12{width: 100%; padding: 15px; }
-
-
 
 a{
     text-decoration: none;
 }
+.logo a img{
+    width: 100%;
+}
 .container {
-    width: 1150px;
+    width: 1200px;
     margin: auto;
 }
-.container2 {
-    width: 1180px;
-    margin: auto;
-}
+
 .row{
     margin-left: -15px;
     margin-right: -15px;
 }
+
 /* navbar-part */
-nav{
-    width: 100%;
+.nav-main{
     min-height: 120px;
     background-color: #ffffff;
     border-top: 5px solid #4272d7;
-    position: sticky;
-    top: 0;
-    z-index: 100;
+    
     
 }
 
@@ -94,6 +92,7 @@ nav{
     font-size: 15px;
     padding: 50px 0;
     display: block;
+
 
 }
 .itam ul li:hover >a{
@@ -150,13 +149,10 @@ nav{
 
 /* navbar-part end*/
 
-.slider-active{
-    width: 100%;
-}
+
 
 .slider {
     text-align: center;
-    width: 100%;
     background-size: cover;
     padding: 200px 0;
     text-transform: uppercase;
@@ -242,6 +238,7 @@ nav{
     overflow: hidden;
     position: relative;
     top: -13px;
+    
 }
 
 .hire-part p{
@@ -257,7 +254,7 @@ nav{
 
 }
 
-.hire-part a{
+.btn a{
 float: right;
 border: 2px solid #ffffff;
 padding: 15px 40px;
@@ -273,6 +270,7 @@ transition: .3s;
 /* iconbox-container */
 .iconbox-section{
     padding:  70px 0;
+    overflow: hidden;
 }
 
 .iconbox-container{
@@ -283,8 +281,8 @@ transition: .3s;
 
 
 .iconbox-container .iconbox-image img{
-    width: 370px;
-    height: 280px;
+    width: 100%;
+    
     background-size: cover;
     
 }
@@ -294,7 +292,7 @@ transition: .3s;
     background-color: rgba(66,114,215,.9);
     position: absolute;
     bottom: 0px;
-    width: 370px;
+    width: 100%;
     height: 70px;
     transition: .5s;
 
@@ -335,7 +333,7 @@ transition: .3s;
     cursor: pointer;
 }
 .iconbox-contain:hover {
-    height: 283px;
+    height: 100%;
     bottom: 0;
 }
 
@@ -351,7 +349,6 @@ transition: .3s;
 /* services  */
 .full-section{
     background: #f0f0f0;
-    overflow: hidden;
     padding:20px 0;
 }
 .header-text {
@@ -412,8 +409,9 @@ transition: .3s;
 
 /* sub-salide */
 .project-area{
-    padding: 70px 70px ;
+    padding: 70px 0 ;
     background: #000;
+    overflow: hidden;
 }
 .project-warper{
     position: relative;
@@ -474,6 +472,7 @@ transition: .3s;
     overflow: hidden;
     padding-bottom: 35px;
     padding-top: 45px;
+    width: 100%;
 }
 .main-contain{
     overflow: hidden;
@@ -523,6 +522,9 @@ transition: .3s;
     background: #f0f0f0;
     overflow: hidden;
 }
+.hire-me .col-6{
+    padding-bottom: 0;
+}
 .hire-all{
     width: 100%;
     height: 575px;
@@ -530,9 +532,8 @@ transition: .3s;
 .hire-me-contain{
     text-align: center;
     margin-top: 288px;
-    
-    
 }
+
 .hire-me-contain p{
     font-size: 20px;
     color: #555;
@@ -737,6 +738,9 @@ transition: .3s;
     justify-content: space-between;
     padding: 40px;
     color: #f0f0f0;
+}
+.patner-img img{
+    width: 100%;
 }
 
 

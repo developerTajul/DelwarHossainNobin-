@@ -1,0 +1,299 @@
+
+/* Large screens and Desktops */
+
+@media screen and (min-width:992px) and (max-width:1200px){
+    .container {
+        max-width: 970px;
+    }
+    .rivew .owl-carousel .owl-nav button.owl-next {
+        right: 130px;
+    }
+    .iconbox-container .iconbox-contain h1 {
+    font-size: 10px;
+    }
+    .image-hadin{
+        bottom: 73px;
+    }
+}
+
+/* iPads and Tablets*/
+@media screen and (min-width: 768px ) and (max-width: 991px) {
+    .container {
+        max-width: 750px;
+    }
+    .itam ul li {
+        margin-left: 35px;
+    }
+    .iconbox-container .iconbox-contain p {
+        display: none;
+        
+    }
+    .iconbox-container .iconbox-contain h1 {
+        font-size: 10px;
+    }
+    .choose-containt {
+        margin-bottom: 10px;
+    }
+    .hire-me-contain {
+        margin-top: 150px;
+    }
+    .col-3 .newslleter{
+        float: none;
+    }
+
+    .hire-me-image img {
+        margin-top: 71px;
+    }
+    .rivew .owl-carousel .owl-nav button.owl-next {
+        right: 400px;
+    }
+    .rivew .owl-carousel .owl-nav button span {
+        line-height: 13px;
+    }
+    .image-hadin{
+        bottom: 0px;
+    }
+    .tesimonial-part{
+        display: none;
+    }
+    .blog-col .col-6{
+        width: 100%; 
+        padding: 15px;
+    }
+    .bemax-footer span a {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 10px;
+    }
+
+    .button--submit {
+        min-height: 35px;
+        padding: 0.5em 0.5em;
+        font-size: 10px;
+    }
+    .input {
+        min-height: 35px;
+        max-width: 111px;
+        font-size: 10px;
+    }
+}
+
+/* For Mobile Devices */
+@media screen and  (max-width: 767px) {
+    .container {
+       width: 300px;
+    }
+
+    .col-4{width: 100%; padding: 15px; }
+    .col-6{width: 100%; padding: 15px; }
+    .col-3{width: 100%; padding: 15px; }
+    .nav-main .container{
+        width: 400px;
+        margin: auto;
+    }
+    
+    .mean-container a.meanmenu-reveal span {
+        display: block;
+        background: #000;
+        height: 0px;
+        margin-top: 4px;
+        padding-top: 4px;
+        line-height: 68px;
+    }
+    .mean-container .mean-bar {
+        float: right;
+        width: 60%;
+        position: relative;
+        background: #fff;
+        padding: 4px 0;
+        min-height: 42px;
+        z-index: 999999;
+        margin-top: 30px;
+        margin-right: 27px;
+        color: #000;
+    }
+    .icone {
+        display: none;
+    }
+    .mean-container a.meanmenu-reveal {
+        color: #000;
+        
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        
+        width: 25px;
+        height: 25px;
+    }
+    
+
+    .slider h2 {
+        font-size: 30px;
+    }
+    
+
+    .slider h4 {
+        font-size: 15px;
+    }
+
+    .slider a {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    img{
+        width: 100%;
+    }
+    .btn {
+        overflow: hidden;
+        margin-right: 97px;
+    }
+    .blog-contain h1 {
+        margin: 20px 0;
+    }
+    
+}
+
+/* For Mobile Devices */
+@media screen and (min-width:275px) and (max-width: 767px) {
+    .container {
+       width: 250px;
+    }
+    .slider{
+        padding: 30px 0;
+    }
+    .owl-theme .owl-dots{
+        bottom: 10px;
+    }
+    .Banner .owl-carousel .owl-nav button {
+        top: 33%;
+        left: 15px;
+    }
+    .Banner .owl-carousel .owl-nav button.owl-next {
+        right: 46px;
+    }
+    .col-8 {
+        width: 100%;
+        padding: 15px;
+        float: left;
+    }
+    .hire-part p {
+        font-size: 10px;
+    }
+    .hire-part span {
+        font-size: 15px;
+    }
+    .btn {
+        overflow: hidden;
+        margin-right: 85px;
+    }
+    .btn a {
+        border: 1px solid #ffffff;
+        padding: 10px 20px;
+        text-align: center;
+        
+    }
+
+
+    .iconbox-section {
+        padding: 10px 0;
+    }
+    .iconbox-container .iconbox-contain h1 span {
+        padding-right: 10px;
+        font-size: 20px;
+    }
+    .iconbox-container .iconbox-contain h1 span {
+        display: block;
+        text-align: center;
+    }
+    .iconbox-container .iconbox-contain p{
+        display: none;
+    }
+
+    .iconbox-container .iconbox-contain h1 {
+        font-size: 13px;
+        padding: 3px 0;
+        text-align: center;
+        
+    }
+    .header-text {
+        padding: 0px 0;
+    }
+    .header-text h1 {
+        font-size: 25px;
+    }
+    .services {
+        padding: 5px 0;
+    }
+    .header-text h1 {
+        font-size: 23px;
+    }
+    .project-area {
+        padding: 12px 0;
+    }
+    .hire-me-contain {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .hire-me-contain p {
+        font-size: 12px;
+    }
+    .header-text h1 {
+        font-size: 18px;
+    }
+    .hire-me-image {
+        margin-top: 34px;
+    }
+    .blog-part {
+        display: block;
+    }
+    
+    .tesimonial-part {
+        display: none;
+    }
+    
+    .blog-type h1 {
+        font-size: 20px;
+    }
+    .rivew .owl-carousel .owl-nav button {
+        top: -20px;
+        left: 134px;
+
+    }
+    .rivew .owl-carousel .owl-nav button.owl-next {
+        right: -2px;
+    }
+    
+
+    .blog-contain p {
+        margin-bottom: 15px;
+    }
+
+
+    .blog-contain p {
+        font-size: 15px;
+        color: #666;
+        font-weight: 400;
+        margin-bottom: 15px;
+        line-height: 25px;
+    }
+    .copright-text p {
+        padding: 14px 0;
+        font-size: 12px;
+    }
+    .menu-part .logo {
+        margin-left: 60px;
+    }
+    .mean-container .mean-bar {
+        width: 46%;
+    }
+    .menu-part .logo {
+        margin-left: 33px;
+        width: 50px;
+    }
+    .mean-container .mean-bar {
+        margin-right: 90px;
+    }
+}
+
+
+
