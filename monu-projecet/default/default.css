@@ -1,0 +1,58 @@
+
+body{
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* common-text-color */
+.tc1,p{
+    color: #343434;
+}
+
+h1,.tc2{
+    color: #595959;
+}
+.whaite-text{
+    color: #ffffff;
+}
+.back-color{
+    background: #505cfd;
+
+}
+
+.bgc1{
+    background: #505cfd;
+}
+
+/* common-font-size */
+.font14{
+    font-size: 14px;
+}
+.font15{
+    font-size: 15px;
+}
+.font30{
+    font-size: 30px;
+}
+.font22{
+    font-size: 22px;
+}
+.padding-tb{
+    padding: 50px 0 60px 0;
+}
+.margin-tbs{
+    margin: 35px 0;
+}
